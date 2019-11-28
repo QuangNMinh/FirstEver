@@ -1,4 +1,6 @@
-
+git add composer.lock
+git commit -m "Add Composer lock file"
+git push heroku
 
 <body>
          <h1>Create product</h1>
