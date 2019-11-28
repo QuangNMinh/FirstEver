@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Create product</title>
 </head>
 <body>
          <h1>Create product</h1>
