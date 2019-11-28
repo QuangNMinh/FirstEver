@@ -1,9 +1,5 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Create product</title>
-</head>
+
 <body>
          <h1>Create product</h1>
          <form action="InsertProduct.php" method="post">
