@@ -9,7 +9,7 @@
          <form action="InsertProduct.php" method="post">
          Name <input type="text" name="Name"> <br>
          Price <input type="text" name ="Price"><br>
-         <input type="button" name="Insert">
+         <input type="submit" name="Insert">
          </form>
 </body>
 </html>
