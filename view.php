@@ -18,7 +18,7 @@
             $db["pass"],
             ltrim($db["path"], "/")
         ));    
-        $sql = "select * from product";
+        $sql = "select * from products";
         //compile the sql
         $stmt = $pdo->prepare($sql);
         //execute the query on the server and return the result set
@@ -30,7 +30,7 @@
         <?php
             foreach ($resultSet as $row) {
                 echo "<li>" .
-                   '<a href="delete.php?id=' . $row["pid"] .  '">' .   $row["name"] 
+                 '<a href="delete.php?id=' . $row["pid"] .  '">' .   $row["name"] 
                         . '--'. $row["price"] 
                 . '</a>'
                 . "</li>";
