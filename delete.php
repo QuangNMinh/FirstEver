@@ -18,3 +18,4 @@
      $stmt->execute($data);
      echo("delete ok!");
 ?>
+© 2019 GitHub, Inc.
