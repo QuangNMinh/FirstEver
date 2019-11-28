@@ -16,7 +16,7 @@
             'price'=>$price
         ]
         $stmt = 
-        $pdo->prepare("INSERT INTO products(name,price) VALUES (:name,:price)");
+        $pdo->prepare("INSERT INTO product(name,price) VALUES (:name,:price)");
         $stmt->execute($data);
         echo("insert ok");
 ?>
